@@ -64,7 +64,7 @@ student-task-manager/
 ### 1️⃣ Clone the repository
 
 ```
-git clone https://github.com/your-username/student-task-manager.git
+git clone https://github.com/vratikakbariit23d1-art/AWT-PROJECT-FINAL.git
 cd student-task-manager
 ```
 
