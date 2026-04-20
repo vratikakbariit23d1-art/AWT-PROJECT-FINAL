@@ -21,7 +21,7 @@ A full-stack **Student Task Manager** web application that helps students organi
 ### Frontend
 
 * React.js
-* CSS3 / Tailwind (if used)
+* CSS3
 * Axios
 
 ### Backend
@@ -31,7 +31,7 @@ A full-stack **Student Task Manager** web application that helps students organi
 
 ### Database
 
-* MongoDB (Mongoose)
+* MongoDB (Mongoose) local compass.
 
 ### Authentication
 
@@ -72,14 +72,14 @@ cd student-task-manager
 
 ### 2️⃣ Install dependencies
 
-#### For backend:
+#### Backend:
 
 ```
 cd server
 npm install
 ```
 
-#### For frontend:
+#### Frontend:
 
 ```
 cd client
@@ -88,7 +88,7 @@ npm install
 
 ---
 
-### 3️⃣ Environment variables
+### 3️⃣ Environment Variables
 
 Create a `.env` file in the **server** folder:
 
@@ -100,7 +100,7 @@ JWT_SECRET=your_secret_key
 
 ---
 
-### 4️⃣ Run the application
+### 4️⃣ Run the Application
 
 #### Start backend:
 
@@ -136,19 +136,29 @@ npm start
 
 ## 🔒 Authentication Flow
 
-1. User logs in or registers
+1. User registers or logs in
 2. Server generates JWT token
 3. Token stored in frontend (localStorage)
 4. Protected routes require token in headers
 
 ---
 
+## 👥 Team Members & Roles
 
-## 🚀 Deployment
+* **MEGH ADVANI (Frontend Developer)**
 
-* Frontend: Vercel / Netlify
-* Backend: Render / Railway / Cyclic
-* Database: MongoDB Atlas
+  * Developed UI using React
+  * Handled state management and API integration
+
+* **VRATIK AKBARI (Backend Developer)**
+
+  * Built REST APIs using Node.js & Express
+  * Implemented authentication using JWT
+
+* **ANSH MEHRA (Database Manager)**
+
+  * Designed MongoDB schema
+  * Managed database integration with backend
 
 ---
 
@@ -166,13 +176,6 @@ Contributions are welcome!
 ## 📄 License
 
 This project is licensed under the MIT License.
-
----
-
-## 👨‍💻 Author
-
-* Your Name
-* GitHub: https://github.com/your-username
 
 ---
 
